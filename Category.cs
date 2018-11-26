@@ -7,11 +7,7 @@ namespace Campo.Models
 {
     public class Category
     {
-        [key]
         public int categoryID { get; set; }
         public String categoryName { get; set; }
-
-        public ICollection<Products> productsList { get; set; }
-
     }
 }

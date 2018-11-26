@@ -16,10 +16,7 @@ namespace CampProj.Models
         public String Prod_image { get; set; }
         public double Discount { get; set; }
         public double Stock { get; set; }
-
-        public int categoryID { get; set; }
-        public Category categories { get; set; }
-        public ICollection<Customers> CustomersList { get; set; }
+        
 
     }
 }
