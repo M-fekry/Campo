@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Campo.Models
+namespace Camping.Models
 {
     public class Category
     {
-        public int categoryID { get; set; }
-        public String categoryName { get; set; }
+        
+        public int CategoryID { get; set; }
+        public string CategoryName { get; set; }
+        
+       
+        
+        public List<Product> productsList { get; set; }
+
     }
 }
