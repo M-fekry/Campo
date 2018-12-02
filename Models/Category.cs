@@ -7,7 +7,13 @@ namespace Campo.Models
 {
     public class Category
     {
-        public int categoryID { get; set; }
-        public String categoryName { get; set; }
+        
+        public int CategoryID { get; set; }
+        public string CategoryName { get; set; }
+        
+       
+        
+        public List<Product> productsList { get; set; }
+
     }
 }
